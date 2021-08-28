@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+ul li {
+    margin: 20px 0 20px 0;
+}
+
+header {
+    background-color: purple;
+}
+
+.imagen-principal img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.imagen-principal {
+    width: auto;
+    height: 800px;
+}
+
+.main-container {
+    position: relative;
+}
+
+#header-main-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+#header-secondary-text {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+}
+
+#button-header {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+}
+
+#button-header2 {
+    position: absolute;
+    top: 55%;
+    left: 48%;
+}
+
+.button {
+    width: 180px;
+    height: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.page1-button {
+    background-color: yellow;
+    color: purple;
+}
+
+.page2-button {
+    background-color: white;
+    color: black;
+    position: absolute;
+}
+
+.page2-button:hover {
+    color: blue;
+}
+
+.page1-button:hover {
+    background-color: purple;
+    color: yellow;
+}
+
+.grid1 {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.about-us {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 100px 10px auto 180px;
+}
+
+.create {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 100px 10px auto 180px;
+}
+
+.awards {
+    background-color: white;
+    width: 300px;
+    height: 260px;
+    grid-column: 2/3;
+    grid-row: 2/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cases {
+    background-color: yellow;
+    width: 300px;
+    height: 260px;
+    grid-column: 3/4;
+    grid-row: 3/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients {
+    background-color: white;
+    width: 300px;
+    height: 260px;
+    grid-column: 4/5;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-profile-container {
+    width: 400px;
+    height: 500px;
+}
+
+.img-profile-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.info-team {
+    margin: 50px auto 50px 250px;
+}
+
+.grid2 {
+    display: grid;
+    grid-gap: 10px;
+    margin: auto 250px;
+}
+
+.quote1 {
+    grid-column: 1/2;
+    grid-row: 4/6;
+    background-color: purple;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.quote2 {
+    grid-column: 2/3;
+    grid-row: 2/5;
+    background-color: yellow;
+    padding: 50px;
+}
+
+.quote2 h2 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.quote2 p {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1page1 {
+    grid-row: 1/4;
+    grid-column: 1/2;
+}
+
+.img2page1 {
+    grid-column: 2/3;
+    grid-row: 5/7;
+}
+
+.img3page1 {
+    grid-column: 3/4;
+    grid-row: 3/6;
+}
+
+.img-do img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 250px;
+    margin-top: 120px;
+}
+
+.img-do {
+    width: auto;
+    height: 800px;
+}
+
+.down-container {
+    position: relative;
+}
+
+.info-us {
+    background-color: yellow;
+    position: absolute;
+    width: 300px;
+    height: 330px;
+    margin-left: 200px;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.info-us h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#header-main-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+.principal-text {
+    font-size: 4rem;
+}
+
+.regular-text {
+    font-size: 24px;
+}
+
+.purple-text {
+    color: purple;
+}
+
+.white-text {
+    color: white;
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+.gray-text {
+    color: gray;
+}
+
+.purple-bkg {
+    background-color: purple;
+    width: auto;
+    height: 1000px;
+}
+
+
+/* Page 2 */
+
+#header-title {
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 44%;
+    font-size: 4rem;
+}
+
+#header-description {
+    position: absolute;
+    color: white;
+    top: 39%;
+    left: 38%;
+    font-size: 20px;
+}
+
+.image-set {
+    display: grid;
+    grid-auto-rows: 100%;
+    grid-auto-columns: 33.3333333%;
+    grid-template-columns: repeat(3, 33.3333333%);
+    grid-gap: 0px;
+}
+
+.img-container-2 img {
+    width: 400px;
+    height: 500px;
+}
+
+.img-container-2 {
+    width: 400px;
+    height: 500px;
+}
+
+.col1 {
+    margin: 100px auto auto 190px;
+}
+
+.col1 p:nth-child(3) {
+    margin: 5% 8% 5% 0;
+}
+
+.col2 {
+    margin: 100px auto auto 110px;
+}
+
+.col2 p:nth-child(3) {
+    margin: 3% 17% 5% 0;
+}
+
+.col3 {
+    margin: 100px auto auto 30px;
+}
+
+.col3 p:nth-child(3) {
+    margin: 3% 28% 4% 0;
+}
+
+.img-container-2-long img {
+    width: auto;
+    height: 800px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin-left: 390px;
+}
+
+.img-container-2-long {
+    width: 400px;
+    height: 500px;
+}
+
+.info-about {
+    display: grid;
+    margin: 45px;
+    height: 800px;
+    grid-gap: 30px;
+    margin: 30px;
+    width: auto;
+}
+
+.podcast {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: lightgray;
+    border-radius: 30px;
+    height: 200px;
+    width: 300px;
+    margin: 40px auto auto 400px;
+}
+
+.podcast p:first-child {
+    padding: 30px;
+    font-size: 30px;
+}
+
+.podcast p:last-child {
+    padding: 0 30px;
+}
+
+.about {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 500px;
+    height: 250px;
+    margin: -300px auto auto 400px;
+    background-color: lightgray;
+    border-radius: 30px;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin: 30px;
+}
+
+.about p {
+    margin: 0 30px;
+}
+
+.title {
+    padding-left: 500px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 100vw;
+    background-color: lightgray;
+}
+
+.reg-text {
+    font-size: 40px;
+}
+
+.reg-text-2 {
+    font-size: 20px;
+}
+
+.radio-center {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.center-radio {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 70px auto auto 80px;
+}
+
+.about-us-container {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 200px 150px auto 600px;
+}
+
+.about-us-container h2 {
+    margin-bottom: 30px;
+}
+
+.red-button {
+    margin-top: 70px;
+    background-color: red;
+    color: white;
+}
+
+.red-button:hover {
+    color: grey;
+}
